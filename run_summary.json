@@ -1,0 +1,18 @@
+{
+  "global_step": 120,
+  "last_loss": 1.231446385383606,
+  "last_tag_ce": 1.1887670755386353,
+  "elapsed_hours": 0.6637147622063888,
+  "train_examples": 38963,
+  "world_size": 1,
+  "lora_targets": ["q_proj", "k_proj", "v_proj", "o_proj", "lm_head"],
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "max_seq_len": 3072,
+  "tag_weight": 30.0,
+  "tag_ids": "151667,151668,151657,151658,151665,151666,151645",
+  "first_target_k": 0,
+  "first_target_weight": 1.0,
+  "init_adapter": "/kaggle/working/lora_v1",
+  "skipped_oom": 0
+}
